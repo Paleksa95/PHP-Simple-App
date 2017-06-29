@@ -1,0 +1,84 @@
+/* This stylesheet is linked in index.php and adminlogin.php file */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 15px;
+    background: lightblue;
+}
+
+#main {
+    background: pink;
+    margin: 50px auto;
+    overflow: auto;
+    width: 60%;
+    min-height: 400px;
+}
+
+header h1 {
+    color: blue;
+    font-size: 70px;
+    padding: 15px 0 10px 10px;
+    border-bottom: 5px solid black;
+    text-align: center;
+}
+
+#messages {
+    width: 80%;
+    background: lavenderblush;
+    margin: 20px auto;
+    height: 300px;
+    overflow: auto; /* This is for scroll bar when people post too many posts */
+}
+
+.post {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+.post span {
+    color: mediumseagreen;
+}
+
+#form {
+    width: 80%;
+    margin: auto;
+
+}
+
+#form input[type='text'],[type='email'],[type='password'] {
+    height: 30px;
+    width: 49%;
+
+}
+
+div.titletextbutton {
+    text-align: center;
+}
+
+input.button {
+    height: 40px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+/*
+*
+* adminlogin style starts from here
+*
+*/
+
+#adminlogin{
+    text-align: center;
+
+}
+
+
+#adminlogin input[type='submit']{
+    height: 35px;
+    width: 200px ;
+}
+
